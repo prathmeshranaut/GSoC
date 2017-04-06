@@ -3,11 +3,11 @@
 
 >Mentors : [@chuckremes](https://github.com/chuckremes), [@digitalextremist](https://github.com/digitalextremist)
 
-##Summary
+## Summary
 The primary goal of the project was to improve the performance of the underlying [Celluloid framework](https://github.com/celluloid/celluloid), explore future areas for performance improvement and create a benchmarking suite to lay the foundation for measuring future performance improvements.
 
 ---
-###Celluloid
+### Celluloid
 [Benchmarks & Test Suite](https://github.com/prathmeshranaut/celluloid/commits/multiplex?author=prathmeshranaut)
 
 [Celluloid Pool](https://github.com/celluloid/celluloid-pool/pull/16) - Increased performance by upto 3 times.
@@ -15,7 +15,7 @@ The primary goal of the project was to improve the performance of the underlying
 [Instruction to Clone and run Celluloid](https://github.com/celluloid/celluloid/pull/721)
 
 
-####Abstract
+#### Abstract
 The benchmarking suite was created to measure the performance improvements done while making tweaks to the code. Changes made in pool resulted in the performance increase of about 3x times.
 
 #### Before	
@@ -40,21 +40,21 @@ The benchmarking suite was created to measure the performance improvements done 
 ![Method Profile of Actor](http://i.imgur.com/0WDvAbV.png)
 
 ---
-###Reel
+### Reel
 [Tests - Pull Request](https://github.com/celluloid/reel/pull/227)
 
 [Individual Commits](https://github.com/prathmeshranaut/reel/commits/master?author=prathmeshranaut)
 
-####Abstract
+#### Abstract
 Reel is Celluloid::IO native, non-blocking evented server. The main aim here was to improve the test suite which can be seen in the above link and create a benchmarking suite, which couldn't be completed. This is something I plan on doing after the completion of GSoC.
 
-##Tools Used
+## Tools Used
 1. [RubyProf](https://github.com/ruby-prof/ruby-prof)
 2. [StackProf](https://github.com/tmm1/stackprof)
 3. [Method Profiler](https://github.com/change/method_profiler)
 4. [QCacheGrind](https://kcachegrind.github.io/html/Home.html)
 
-#Challenges
+# Challenges
 1. Understanding meta-programming
 2. Working with profiling tools in a concurrent environment.
 3. Developing consistent benchmark results.
@@ -67,10 +67,10 @@ Reel is Celluloid::IO native, non-blocking evented server. The main aim here was
 
 # Commits
 
-###Celluloid Pool
+### Celluloid Pool
 [Removed redundant code, improves performance by upto 3 times](https://github.com/prathmeshranaut/celluloid-pool/commit/b4e42515cfe6095372ce436fd9a2a991b7f3ea5e)
 
-###Celluloid
+### Celluloid
 
 [Fixed issues with RuboCop](https://github.com/prathmeshranaut/celluloid/commit/8b0ebefaece96d4d00593c7ffca2d30d3d1b2dc8)
 
@@ -109,7 +109,7 @@ Reel is Celluloid::IO native, non-blocking evented server. The main aim here was
 [Merge branch 'multiplex' of https://github.com/celluloid/celluloid](https://github.com/prathmeshranaut/celluloid/commit/d96ea3699d0a
 ---41583ade963a512b81a7f31a3dd1)
 
-###Reel
+### Reel
 [Extracted the example request string](https://github.com/prathmeshranaut/reel/commit/9a8ed5fb91935ab8c90c2f1f47b9194d30057ac9)
 
 [Added test for array and non-string websocket messages](https://github.com/prathmeshranaut/reel/commit/bd7f592c4f54a8269b96aaaa031ffe737af2c511)
@@ -124,7 +124,7 @@ Reel is Celluloid::IO native, non-blocking evented server. The main aim here was
 
 [Updated web socket specs to new Celluloid internal APIs](https://github.com/prathmeshranaut/reel/commit/60e408ae0b31abd5ce757da4d4bc87e5a8bd3a2e)
 
-##Other Links
+## Other Links
 * [Github](https://github.com/prathmeshranaut)
 * [Blog](http://blog.prathmeshranaut.com)
 * [Celluloid](https://github.com/celluloid/celluloid)
